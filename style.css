@@ -21,7 +21,7 @@
 	background-color: red;
 }
 
-#matrix .food
+#apple
 {
-    background-image: url(apple.png);
+    opacity: 0;
 }

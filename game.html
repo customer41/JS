@@ -7,11 +7,17 @@
     <script language="javascript" src="jquery-1.11.3.min.js"></script>
 	<script language="javascript" src="matrix.js"></script>
 	<script language="javascript" src="snake.js"></script>
-	<script language="javascript" src="obstacle.js"></script>
+	<script language="javascript" src="food.js"></script>
 	<script language="javascript" src="functions.js"></script>
     <script language="javascript" src="onload.js"></script>
 </head>
 <body>
 	<div id="matrix"></div>
+    <p><b>Выберете уровень сложности:</b><br>
+        <input type="radio" name="level" value="easy" checked="checked"/> Лёгкий<br>
+        <input type="radio" name="level" value="medium"/> Средний<br>
+        <input type="radio" name="level" value="hard"/> Тяжёлый<br><br>
+        <input type="submit" value="Начать игру" id="start_game"/>
+    </p>
 </body>
 </html>

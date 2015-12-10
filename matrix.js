@@ -41,10 +41,5 @@ function Matrix(containerId, rows, cols)
         var cell = this.getCellNode(row, col);
         val ? cell.addClass(name) : cell.removeClass(name);
 	};
-
-    this.isBorder = function(row, col)
-    {
-        return row >= this.rows || row <= 1 || col >= this.cols || col <= 1;
-    };
 }
 		
